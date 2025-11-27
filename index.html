@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html lang="en-CA">
+
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+    <title>Final Project</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        min-height: 500px;
+      }
+
+
+
+      .page-wrapper {
+        width: 1440px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      /* Header section with  logo and nav */
+      .header {
+        text-align: center;
+        padding: 20px 0;
+      }
+
+
+      @keyframes float {
+
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      .logo {
+        max-width: 180px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        animation: float 3s ease-in-out infinite;
+
+
+      }
+
+      /* Navigation */
+      nav {
+
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        font-family: "Playpen Sans", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+
+      }
+
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+      }
+
+
+      /* Banner section */
+      .banner {
+        background-color: rgba(72, 0, 0, 1);
+        padding: 80px 0;
+        width: 100%;
+        position: relative;
+        overflow: visible;
+
+
+      }
+
+
+      .banner h1 {
+        color: white;
+        margin: 0 0 30px 0;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+
+      }
+
+      h2 {
+        color: rgba(72, 0, 0, 1);
+        margin: 0 0 20px 0;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+      }
+
+      .banner p {
+        color: white;
+        font-family: "Annie Use Your Telescope", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 40px;
+        font-size: 20px;
+        max-width: 600px;
+
+      }
+
+
+      p {
+        font-family: "Annie Use Your Telescope", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+
+
+
+      }
+
+      .Quotetext {
+        margin-top: 200px;
+        left: 0;
+        max-width: 600px;
+        line-height: 40px;
+
+
+      }
+
+  
+
+
+      .banner-image {
+        position: absolute;
+        right: 120px;
+        bottom: -1px;
+        max-width: 391.2px;
+        z-index: 10;
+
+
+      }
+
+      .Luffy-image {
+        position: absolute;
+        right: 70px;
+        bottom: 200px;
+        max-width: 450px;
+
+      }
+
+      .Nika-image {
+        position: absolute;
+        left: 115px;
+        bottom: -780px;
+        max-width: 400px;
+
+      }
+      
+      .LC-image {
+        position: absolute;
+        left: 550px;
+        bottom: -770px;
+        max-width: 750px;
+
+      }
+
+
+
+      .Impacttext {
+        position: absolute;
+        left: 115px;
+        bottom: -1550px;
+        max-width: 600px;
+        line-height: 40px;
+      }
+
+      .Crew-image {
+        position: absolute;
+        right: 70px;
+        bottom: -1570px;
+        max-width: 330px;
+      }
+
+      .GC-image {
+        position: absolute;
+        left: 100px;
+        bottom: -2480px;
+        max-width: 415px;
+      }
+
+      .Govtext {
+        position: absolute;
+        right: 115px;
+        bottom: -2500px;
+        max-width: 600px;
+        line-height: 40px;
+      }
+
+      .Fanart-image {
+        position: absolute;
+        left: 70px;
+        bottom: -3650px;
+        max-width: 580px;
+      }
+
+  
+      .Luffytext {
+        position: absolute;
+        left: 115px;
+        bottom: -4230px;
+        max-width: 530px;
+        line-height: 40px;
+      }
+
+      .anim-image {
+        position: absolute;
+        right: 70px;
+        bottom: -3250px;
+        max-width: 440px;
+      }
+      
+      .goggles-image {
+        position: absolute;
+        right: 70px;
+        bottom: -3660px;
+        max-width: 440px;
+      }
+      
+      .liberated-image {
+        position: absolute;
+        right: 70px;
+        bottom: -4200px;
+        max-width: 440px;
+      }
+      
+      
+      .Shanks-image {
+        position: absolute;
+        right: 70px;
+        bottom: -5300px;
+        max-width: 440px;
+      }
+
+      
+
+      
+      
+      
+      
+    </style>
+
+  </head>
+
+
+  <body>
+
+
+    <div class="page-wrapper">
+
+      <div>
+        <nav>
+          <a href="#crew">HOME</a>
+          <a href="#luffy">CREW</a>
+          <a href="#devil-fruits">DEVIL FRUITS</a>
+        </nav>
+
+
+      </div>
+
+
+      <div class="container header">
+        <img src="skull.png" alt="One Piece Logo" class="logo">
+      </div>
+
+
+      <div class="banner">
+
+        <div class="container">
+          <h1>Monkey D Luffy</h1>
+
+          <p>
+            Monkey D. Luffy is a boy with a simple heart and an unbreakable spirit.
+            Someone who laughs in the face of danger and sees possibility where the world sees limits. He is guided not by power or fame, but by a pure belief in freedom. His honesty, joy, and stubborn courage turn impossibility into reality, making him a light in a world built on fear.</p>
+
+          <img src="bannerimage2.png" alt="Boat" class="banner-image">
+
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="Quotetext">
+          <h2>
+            Quotes
+          </h2>
+          <p>“I’m going to be King of the Pirates!”
+
+
+“I don’t want to conquer anything. I just think the guy with the most freedom in this whole ocean… is the Pirate King.”</p><br><br><br>
+
+
+<br><p>“If you don’t take risks, you can’t create a future.”</p><br><br><br>
+
+
+<br><p>“No matter how hard or impossible it is, never lose sight of your goal.”</p><br><br><br>
+
+
+<br><p>“I decided long ago that I’m gonna be Pirate King. If I die fighting for that, then that’s that.”</p><br><br><br>
+
+
+
+        </div>
+
+        <img src="LuffyBig.png" alt="luffy" class="Luffy-image">
+
+        <img src="Nika.png" alt="nikaposter" class="Nika-image">
+        
+        <img src="LC.png" alt="luffycollage" class="LC-image">
+
+        
+
+
+        <div class="Impacttext">
+          <h2>
+            His Impact on the Crew
+          </h2>
+          <p>
+           Every Straw Hat joined him carrying wounds, regrets, or dreams they thought were out of reach. Luffy didn’t fix their pasts — he simply believed in them more fiercely than they believed in themselves. He gave Zoro a promise worth dying for, Nami a reason to hope again, Robin a place to live without fear, and each member a home they never knew they needed. Through his kindness and recklessness, he turned strangers into a family that would follow him to the ends of the sea.
+          </p>
+        </div>
+
+        <img src="Crew2.png" alt="Crew2" class="Crew-image">
+
+
+        <div class="Govtext">
+          <h2>
+            His Impact on the World
+          </h2>
+          <p>
+            Luffy’s journey has shaken nations and uprooted the systems built to control them. He has liberated kingdoms from tyrants, challenged Celestial Dragons, declared war on the World Government, and inspired entire populations to rise. To the oppressed, he is a symbol of hope. To the powerful, he is a growing threat — a pirate whose very existence disrupts the lies and order the world is built on.
+          </p>
+        </div>
+        
+       <img src="GovFlag.png" alt="Gov Flag" class="GC-image">
+        
+        
+        <img src="Fanart.png" alt="Fanart" class="Fanart-image">
+        
+        
+        <div class="Luffytext">
+          <h2>
+            Gear 5, the Sun God Nika, and the Legacy of Joy Boy
+          </h2>
+          <p>
+            Luffy’s awakening reveals the truth hidden for centuries: his Devil Fruit is not the Gum-Gum Fruit, but the Hito Hito no Mi, Model: Sun God Nika, a mythical power once wielded by the ancient liberator Joy Boy. In Gear 5, Luffy becomes a figure of pure freedom, fighting with boundless creativity and laughter, embodying the ancient spirit that brings joy to the oppressed. His heartbeat echoes the “Drums of Liberation,” connecting him to Joy Boy’s will — the will of a man who promised to free the world. With this form, Luffy becomes more than a pirate; he becomes the next light in a legacy of liberation, the living symbol of a world yet to come.
+          </p>
+        </div>
+
+        <img src="Animation.png" alt="G5" class="anim-image">
+        
+        <img src="goggles.png" alt="silly" class="goggles-image">
+        
+        <img src="Liberated.png" alt="free" class="liberated-image">
+        
+         <img src="Liberated.png" alt="PassedDown" class="Shanks-image">
+
+        
+        
+    </div>
+    <script>
+      // Fade in elements on scroll
+      const fadeElements = document.querySelectorAll('.banner, .banner-image, .Zorotext, .Zoro-image, .ZC-image, .Namitext, .Nami-image, .NC-image, .Usopptext, .Usopp-image, .UC-image, .Sanjitext, .Sanji-image, .SC-image, .Choppertext, .Chopper-image, .CC-image, .Robintext, .Robin-image, .RC-image, .up-banner');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      fadeElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 1s ease-out, transform 1s ease-out';
+        observer.observe(el);
+      });
+    </script>
+    </div>
+  </body>
+</html>
